@@ -1,0 +1,9 @@
+<div class="person-container">
+        <h2>Id: {{person.id}}</h2>
+    <h2>Name: {{person.name | uppercase}}</h2>
+    <div>
+        <label for="name">Person name:</label>
+        <input id="name" [(ngModel)]="person.name" placeholder="name">
+
+    </div>
+</div>

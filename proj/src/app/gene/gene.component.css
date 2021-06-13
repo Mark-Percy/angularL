@@ -1,0 +1,8 @@
+.person-container{
+    display:flex;
+    border: 1px solid;
+    border-radius: 25px;
+    flex-direction: column;
+    width:50%;
+    padding:20px;
+}
